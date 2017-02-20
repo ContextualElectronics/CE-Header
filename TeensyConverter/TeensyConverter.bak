@@ -111,4 +111,88 @@ Text Label 9600 3275 0    60   ~ 0
 SPI_CS
 Text Label 4325 4200 0    60   ~ 0
 SPI_CS
+$Comp
+L R R?
+U 1 1 58A768E3
+P 6700 3475
+F 0 "R?" V 6780 3475 50  0000 C CNN
+F 1 "0" V 6700 3475 50  0000 C CNN
+F 2 "" V 6630 3475 50  0000 C CNN
+F 3 "" H 6700 3475 50  0000 C CNN
+	1    6700 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3475 6850 3475
+$Comp
+L R R?
+U 1 1 58A76B77
+P 10300 3475
+F 0 "R?" V 10380 3475 50  0000 C CNN
+F 1 "0" V 10300 3475 50  0000 C CNN
+F 2 "" V 10230 3475 50  0000 C CNN
+F 3 "" H 10300 3475 50  0000 C CNN
+	1    10300 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 3475 9600 3475
+Wire Wire Line
+	6550 3475 6400 3475
+Wire Wire Line
+	10450 3475 10550 3475
+Text Label 9625 3475 0    60   ~ 0
+DEVICE_TX
+Text Label 10550 3475 0    60   ~ 0
+TEENSY_RX
+Text Label 4325 2700 0    60   ~ 0
+TEENSY_RX
+Text Label 7150 3475 0    60   ~ 0
+DEVICE_RX
+Text Label 6400 3475 2    60   ~ 0
+TEENSY_TX
+Text Label 4325 2850 0    60   ~ 0
+TEENSY_TX
+Text Label 7600 4075 2    60   ~ 0
+I2C_SCLK
+Text Label 2500 3600 2    60   ~ 0
+I2C_SCLK
+Text Label 9600 4075 0    60   ~ 0
+I2C_SDAT
+Text Label 2500 3775 2    60   ~ 0
+I2C_SDAT
+Text Label 7600 4275 2    60   ~ 0
+AIO0
+Text Label 2500 4350 2    60   ~ 0
+AIO0
+Text Label 2500 4200 2    60   ~ 0
+AIO1
+Text Label 2500 4050 2    60   ~ 0
+AIO2
+Text Label 2500 3925 2    60   ~ 0
+AIO3
+Text Label 7600 4475 2    60   ~ 0
+AIO2
+Text Label 9600 4275 0    60   ~ 0
+AIO1
+Text Label 9600 4475 0    60   ~ 0
+AIO3
+NoConn ~ 4325 3000
+NoConn ~ 4325 3150
+NoConn ~ 4325 3300
+NoConn ~ 4325 3450
+NoConn ~ 4325 3600
+NoConn ~ 4325 3750
+NoConn ~ 4325 3900
+NoConn ~ 4325 4050
+NoConn ~ 3825 4925
+NoConn ~ 3650 4925
+NoConn ~ 3475 4925
+NoConn ~ 3300 4950
+NoConn ~ 3150 4950
+NoConn ~ 2525 2650
+NoConn ~ 2500 2925
+NoConn ~ 2500 3100
+NoConn ~ 2500 3300
+NoConn ~ 2500 3425
 $EndSCHEMATC
