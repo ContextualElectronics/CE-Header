@@ -1,4 +1,4 @@
-update=2/22/2017 11:19:24 AM
+update=2/23/2017 11:40:39 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ce_header
+LibName31=SensorBoard
