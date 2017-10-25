@@ -1,7 +1,7 @@
 #define CE_spi_cs_gpio3 10
 #define CE_spi_mosi_gpio0 11
 #define CE_spi_miso_gpio1 12
-#define CE_spi_clk_gpio2 12
+#define CE_spi_clk_gpio2 13
 #define CE_usart_rx_gpio4 1
 #define CE_usart_tx_gpio5 0
 #define CE_i2c_sclk_gpio6 19
