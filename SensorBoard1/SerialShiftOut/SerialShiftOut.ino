@@ -73,7 +73,7 @@ void registerWrite(int whichPin, int whichState) {
   bitWrite(bitsToSend, whichPin, whichState);
 
   // shift the bits out:
-  shiftOut(dataPin, clockPin, MSBFIRST, bitsToSend);
+  shiftOut(dataPin, clockPin, MSBFIRST, 0b00101100); 
 
     // turn on the output so the LEDs can light up:
   digitalWrite(latchPin, HIGH);
